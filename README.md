@@ -10,13 +10,17 @@
 - Terraformをインストール
 - AWS CLIを設定
 
-### 2. デプロイ
+### 2. AWS IAM許可ポリシー
+- IAMReadOnlyAccess
+- AWSLambda_FullAccess
+
+### 3. デプロイ
 
 ```bash
 zip lambda.zip index.js &&  terraform apply -auto-approve
 ```
 
-### 2. クリーンアップ
+### 4. クリーンアップ
 ```bash
 terraform destroy -auto-approve
 ```
