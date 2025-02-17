@@ -11,8 +11,9 @@
 - AWS CLIを設定
 
 ### 2. AWS IAM許可ポリシー
-- IAMReadOnlyAccess
+- IAMFullAccess
 - AWSLambda_FullAccess
+- AmazonAPIGatewayAdministrator
 
 ### 3. デプロイ
 
